@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Form</h1>
+
+    <form action="/Page2.html" method="get">
+      <label for="name">Fullt nafn</label><br />
+      <input name="name" id="name" type="text" /><br /><br />
+
+      <label for="email">Netfang</label><br />
+      <input type="text" name="email" id="email" /><br /><br />
+
+      <label for="password">Lykilorð</label><br />
+      <input
+        minlength="6"
+        maxlength="15"
+        name="password"
+        id="password"
+        type="password"
+      />
+      <br /><br />
+
+      <label for="confirm">Staðfestu lykilorð</label><br />
+      <input
+        minlength="6"
+        maxlength="15"
+        name="confirm"
+        id="confirm"
+        type="password"
+      /><br /><br />
+
+      <label for="age">Aldur</label><br />
+      <input min="5" max="105" name="age" id="age" type="number" id="age" />
+      <br /><br />
+
+      <label for="date">Fæðingardagur</label><br />
+      <input type="date" />
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
