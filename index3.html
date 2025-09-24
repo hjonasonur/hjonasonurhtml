@@ -9,6 +9,61 @@
   <body>
     <h1>Skráðu þig</h1>
 
-    <form action=""></form>
+    <form action="thankyou.html" method="get">
+      <label for="name">Fullt nafn</label><br />
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Dæmi: Svafar Styrkársson"
+        required
+      /><br /><br />
+
+      <label for="email">Netfang</label><br />
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Dæmi:123@123.is"
+        required
+      /><br /><br />
+
+      <label for="password">Lykilorð</label><br />
+      <input
+        minlength="6"
+        maxlength="15"
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Ekki 12345"
+        required
+      />
+      <br /><br />
+      <label for="confirm">Staðfesta lykilorð</label><br />
+      <input
+        minlength="6"
+        maxlength="15"
+        type="password"
+        name="confirm"
+        id="confirm"
+        required
+      />
+      <br /><br />
+      <label for="age">Aldur</label><br />
+      <input
+        min="0"
+        max="100"
+        type="number"
+        name="age"
+        id="age"
+        required
+      /><br /><br />
+
+      <label for="">Samþykki skilmála </label>
+      <input type="checkbox" required /><br /><br />
+
+      <label for=""></label>
+      <button type="submit">Skrá</button>
+    </form>
   </body>
 </html>
